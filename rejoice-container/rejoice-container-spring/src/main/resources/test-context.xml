@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xmlns:docstudio="http://www.docstudio.org/reference"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans  http://www.springframework.org/schema/beans/spring-beans-3.2.xsd  
+                   http://www.docstudio.org/reference  http://www.docstudio.org/reference.xsd">
+	
+  
+  <docstudio:reference id="reference" interface="org.docstudio.rejoice.container.spring.services.HelloService"></docstudio:reference>	
+	
+
+
+
+</beans>
